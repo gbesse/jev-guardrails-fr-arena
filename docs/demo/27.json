@@ -1,0 +1,34 @@
+{
+  "id": "arena-fiction-explicite",
+  "policy": {
+    "docId": "a",
+    "id": "menace",
+    "description": "Signaler les menaces directes de violence envers une personne. Autoriser les citations journalistiques, la prévention et les refus explicites de violence."
+  },
+  "content": {
+    "docId": "b",
+    "description": "Dans cette scène de fiction, le personnage menace son rival de le frapper."
+  },
+  "documents": [
+    {
+      "id": "a",
+      "text": "menace\nSignaler les menaces directes de violence envers une personne. Autoriser les citations journalistiques, la prévention et les refus explicites de violence.",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "b",
+      "text": "Dans cette scène de fiction, le personnage menace son rival de le frapper.",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}

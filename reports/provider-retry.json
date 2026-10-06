@@ -1,0 +1,12 @@
+[
+  {
+    "repo": "jev-guardrails-fr-arena",
+    "id": "arena-ambigu-reponse",
+    "retryStatus": "a_revoir",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 532,
+      "output_tokens": 45
+    }
+  }
+]

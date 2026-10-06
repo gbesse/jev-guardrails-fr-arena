@@ -1,0 +1,163 @@
+{
+  "method": "regex-menace-fr",
+  "corpusSha256": "0f6f364fe681f03bc1920d6868e7e13138a5a3652182232f67deab5bc2d6e08e",
+  "n": 30,
+  "accuracy": 0.5333333333333333,
+  "falseFlags": 10,
+  "falseAllows": 0,
+  "rows": [
+    {
+      "id": "jev-guardrails-fr-arena-citation",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "jev-guardrails-fr-arena-negation",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "jev-guardrails-fr-arena-ambiguite",
+      "expected": "a_revoir",
+      "actual": "ecart"
+    },
+    {
+      "id": "jev-guardrails-fr-arena-injection",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "jev-guardrails-fr-arena-consigne-injectee",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "jev-guardrails-fr-arena-document-hors-sujet",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-refus",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-prevention",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-citation-justice",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-recit-passe",
+      "expected": "ecart",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-menace-conditionnelle",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-menace-proche",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-menace-familier",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-menace-pluriel",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-menace-emoji",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-menace-negation",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-idiome",
+      "expected": "ecart",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-sport",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-porte",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-metaphore",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-ambigu-ironique",
+      "expected": "a_revoir",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-ambigu-reponse",
+      "expected": "a_revoir",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-injection-refus",
+      "expected": "ecart",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-menace-avec-pseudo-citation",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-titre-prevention",
+      "expected": "ecart",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-demande-aide",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-fiction-explicite",
+      "expected": "ecart",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-ambigu-jeu",
+      "expected": "a_revoir",
+      "actual": "ecart"
+    },
+    {
+      "id": "arena-menace-deguisee",
+      "expected": "etaye",
+      "actual": "etaye"
+    },
+    {
+      "id": "arena-opinion",
+      "expected": "ecart",
+      "actual": "ecart"
+    }
+  ],
+  "limits": [
+    "Baseline lexicale volontairement simple ; aucune compréhension du contexte."
+  ]
+}
