@@ -87,3 +87,5 @@ export interface Dossier extends Input {
   policy: { docId: string; id?: string; description: string };
   content: { docId: string; description: string };
 }
+
+export function compareBenchmarkRows(left:Array<{id:string;expected:string;actual:string}>,right:Array<{id:string;expected:string;actual:string}>):{pairedCases:number;leftOnlyCaseIds:string[];rightOnlyCaseIds:string[];leftOnlyCorrect:number;rightOnlyCorrect:number;bothCorrect:number;bothWrong:number;paired:any[];falseSupport:{left:string[];right:string[]};generalSafetyProven:boolean};

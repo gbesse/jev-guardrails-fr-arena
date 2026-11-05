@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {compareBenchmarkRows}from '../src/index.mjs';
+test('different coverage is excluded rather than scored wrong',()=>{const x=compareBenchmarkRows([{id:'a',expected:'ecart',actual:'etaye'},{id:'left-only',expected:'etaye',actual:'etaye'}],[{id:'a',expected:'ecart',actual:'ecart'}]);assert.equal(x.pairedCases,1);assert.equal(x.rightOnlyCorrect,1);assert.deepEqual(x.leftOnlyCaseIds,['left-only']);assert.deepEqual(x.falseSupport.left,['a']);});
+test('changed gold labels cannot compare as same test',()=>assert.throws(()=>compareBenchmarkRows([{id:'a',expected:'ecart',actual:'etaye'}],[{id:'a',expected:'etaye',actual:'etaye'}])));

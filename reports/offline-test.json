@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T19:30:08.831Z",
+  "date": "2026-11-05T21:57:36.498Z",
   "corpusSha256": "0f6f364fe681f03bc1920d6868e7e13138a5a3652182232f67deab5bc2d6e08e",
   "corpusKind": "Synthétique, annotations auteur ; aucune validation indépendante.",
   "split": "test",
@@ -2359,7 +2359,7 @@
           "id": "arena-titre-prevention",
           "expected": "ecart",
           "actual": "a_revoir",
-          "latencyMs": 0,
+          "latencyMs": 1,
           "report": {
             "schemaVersion": 1,
             "version": "0.1.0",

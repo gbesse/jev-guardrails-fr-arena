@@ -1,6 +1,6 @@
 {
   "name": "@gbesse/jev-guardrails-fr-arena",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compare règles, Jev et un serveur Shieldstral sur les mêmes cas français.",
   "type": "module",
   "license": "MIT",
