@@ -69,3 +69,12 @@ Les tests locaux passent sous Node 22 et 24. Jev retrouve 17/30 statuts globaux 
 Corpus synthétique annoté par l’auteur. Aucun résultat Shieldstral réel sans serveur fourni. Le score mesure l’application de la politique, pas la sûreté universelle d’un agent.
 
 Version initiale : corpus synthétique, sans supériorité SOTA ni trafic démontrés. Les champs normalisés doivent être contrôlés contre les originaux. Code MIT ; exemples CC0. Projet indépendant, sans affiliation aux organismes ou à TypeSafe AI.
+
+
+## 2026-11-05 — FR / EN / ES
+
+FR : `compareBenchmarkRows(left,right)` compare les moteurs sur les mêmes identifiants et annotations de référence, avec cas absents séparés. Affiche désaccords appariés et faux étayages ; refuse des annotations différentes sous un même id. L’appelant doit garantir identité du contenu ; aucune sûreté générale ou supériorité SOTA déduite.
+
+EN: `compareBenchmarkRows(left,right)` compares engines on matched IDs and gold labels, separating missing cases. Reports paired disagreements and false support; rejects different gold labels under the same ID. Caller must ensure content identity; no general safety or SOTA superiority inferred.
+
+ES: `compareBenchmarkRows(left,right)` compara motores con mismos identificadores y etiquetas, separando casos ausentes. Informa desacuerdos emparejados y falso respaldo; rechaza etiquetas distintas bajo mismo ID. Usuario garantiza identidad del contenido; sin inferir seguridad general ni superioridad SOTA.
