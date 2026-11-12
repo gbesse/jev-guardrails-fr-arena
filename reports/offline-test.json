@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05T21:57:36.498Z",
+  "date": "2026-11-12T21:31:46.421Z",
   "corpusSha256": "0f6f364fe681f03bc1920d6868e7e13138a5a3652182232f67deab5bc2d6e08e",
   "corpusKind": "Synthétique, annotations auteur ; aucune validation indépendante.",
   "split": "test",
@@ -271,7 +271,7 @@
           "id": "jev-guardrails-fr-arena-citation",
           "expected": "ecart",
           "actual": "a_revoir",
-          "latencyMs": 2,
+          "latencyMs": 1,
           "report": {
             "schemaVersion": 1,
             "version": "0.1.0",
@@ -2185,7 +2185,7 @@
           "id": "arena-injection-refus",
           "expected": "ecart",
           "actual": "a_revoir",
-          "latencyMs": 0,
+          "latencyMs": 1,
           "report": {
             "schemaVersion": 1,
             "version": "0.1.0",
@@ -2359,7 +2359,7 @@
           "id": "arena-titre-prevention",
           "expected": "ecart",
           "actual": "a_revoir",
-          "latencyMs": 1,
+          "latencyMs": 0,
           "report": {
             "schemaVersion": 1,
             "version": "0.1.0",

@@ -89,3 +89,5 @@ export interface Dossier extends Input {
 }
 
 export function compareBenchmarkRows(left:Array<{id:string;expected:string;actual:string}>,right:Array<{id:string;expected:string;actual:string}>):{pairedCases:number;leftOnlyCaseIds:string[];rightOnlyCaseIds:string[];leftOnlyCorrect:number;rightOnlyCorrect:number;bothCorrect:number;bothWrong:number;paired:any[];falseSupport:{left:string[];right:string[]};generalSafetyProven:boolean};
+
+export function benchmarkConfusionCells(rows:any[]):{cases:number;matrix:any;falseSupportCaseIds:string[];missedRequiredReviewCaseIds:string[];generalSafetyProven:boolean};

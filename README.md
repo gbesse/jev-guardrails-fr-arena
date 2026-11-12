@@ -78,3 +78,12 @@ FR : `compareBenchmarkRows(left,right)` compare les moteurs sur les mêmes ident
 EN: `compareBenchmarkRows(left,right)` compares engines on matched IDs and gold labels, separating missing cases. Reports paired disagreements and false support; rejects different gold labels under the same ID. Caller must ensure content identity; no general safety or SOTA superiority inferred.
 
 ES: `compareBenchmarkRows(left,right)` compara motores con mismos identificadores y etiquetas, separando casos ausentes. Informa desacuerdos emparejados y falso respaldo; rechaza etiquetas distintas bajo mismo ID. Usuario garantiza identidad del contenido; sin inferir seguridad general ni superioridad SOTA.
+
+
+## 2026-11-12 — FR / EN / ES
+
+FR : Détailler la matrice de confusion et les faux étayages ou revues manquées au-delà du taux global.
+
+EN: Expose confusion cells and false support or missed review beyond overall accuracy.
+
+ES: Exponer matriz de confusión y respaldos falsos o revisiones omitidas más allá de exactitud global.

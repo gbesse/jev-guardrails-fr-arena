@@ -355,3 +355,5 @@ export function toHtml(report) {
 }
 
 export {compareBenchmarkRows}from './benchmark-comparison.mjs';
+
+export * from './sprint-nov12.mjs';
